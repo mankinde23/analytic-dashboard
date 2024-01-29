@@ -10,6 +10,9 @@ import Shape from "../../../../public/discount-shape.svg";
 import Circle from "../../../../public/info-circle.svg";
 import Bright from "../../../../public/brightness 1.svg";
 import Moon from "../../../../public/moon 1.svg";
+import Right from "../../../../public/arrow-right.svg";
+import Setting from "../../../../public/setting-2.svg";
+import Logout from "../../../../public/logout.svg";
 
 export default function Sidebar() {
   return (
@@ -70,7 +73,23 @@ export default function Sidebar() {
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="w-[5rem] h-[9.5rem] flex flex-col items-center gap-[1rem]">
+          <div className="flex h-[2.5rem] p-[0.625rem] gap-[0.625rem] justify-center items-center">
+            <div className="flex w-[2.5rem] h-[2.5rem] justify-center items-center gap-[0.625rem] rounded-[1.25rem]">
+              <Image src={Right} />
+            </div>
+          </div>
+          <div className="flex h-[2.5rem] p-[0.625rem] gap-[0.625rem] justify-center items-center">
+            <div className="flex w-[2.5rem] h-[2.5rem] justify-center items-center gap-[0.625rem] rounded-[1.25rem]">
+              <Image src={Setting} />
+            </div>
+          </div>
+          <div className="flex h-[2.5rem] p-[0.625rem] gap-[0.625rem] justify-center items-center">
+            <div className="flex w-[2.5rem] h-[2.5rem] justify-center items-center gap-[0.625rem] rounded-[1.25rem]">
+              <Image src={Logout} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
