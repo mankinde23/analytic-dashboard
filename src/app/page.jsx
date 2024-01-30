@@ -60,6 +60,32 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="flex ">
+            <div className="flex flex-col ">
+              <div className="h-[23.375rem] w-[50.375rem] bg-white p-[1.25rem] rounded-[0.875rem] border-2 border-border">
+                <div className="flex justify-between items-center w-[47.875rem]">
+                  <p className="text-[1.125rem] font-semibold leading-[1.625rem] text-text-h">
+                    Sales Trends
+                  </p>
+                  <div className="flex h-[2.312rem] items-center gap-[0.625rem]">
+                    <p className="text-[0.875rem] font-medium leading-[1.375rem] text-sort">
+                      Short by :{" "}
+                    </p>
+                    <div className="h-[2rem] w-[6rem] py-[0.375rem] px-[0.75rem] flex items-center gap-[0.625rem] rounded-[1.25rem] bg-white border-2 border-border">
+                      <div className="flex justify-center items-center gap-[0.625rem]">
+                        <p className="text-[0.75rem] font-normal leading-[1rem]  text-sort">
+                          Weekly
+                        </p>
+                        <Image src={Arrow} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+            {/* main container */}
+          </div>
         </div>
       </div>
     </>
