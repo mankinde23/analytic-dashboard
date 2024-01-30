@@ -14,7 +14,8 @@ module.exports = {
         "border":"#DADDDD",
         "white":"#FFF",
         "search":"#A3A3A3",
-        "email":"#787486"
+        "email":"#787486",
+        "sort":"#3A3F51"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
