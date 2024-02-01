@@ -86,7 +86,9 @@ export default function Home() {
                   <BarChat />
                 </div>
               </div>
-              <div></div>
+              <div className="h-[26.375rem] w-[50.375rem]  bg-white p-[1.25rem] rounded-[0.875rem] border-2 border-border mt-[1.25rem]">
+                <div className="flex justify-between items-center w-[47.875rem] h-[1.625rem]"></div>
+              </div>
             </div>
             {/* main container */}
           </div>
