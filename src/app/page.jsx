@@ -5,6 +5,7 @@ import Calender from "../../public/solar_calendar-linear.svg";
 import Bell from "../../public/solar_bell-outline.svg";
 import Profile from "../../public/Rectangle 1061.png";
 import Arrow from "../../public/Arrow - Down 2.svg";
+import BarChat from "./component/barchart/barchat";
 
 export default function Home() {
   return (
@@ -80,6 +81,9 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div>
+                  <BarChat />
                 </div>
               </div>
               <div></div>
